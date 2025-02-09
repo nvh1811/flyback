@@ -1,0 +1,20 @@
+Change Component Comment : Designator=J2 Old Comment= New Comment=Domino 2P
+Change Component Comment : Designator=R4 Old Comment=2.2K New Comment=2.2K 1/8W
+Change Component Comment : Designator=R2 Old Comment=270R New Comment=270R 1/4W
+Change Component Comment : Designator=R3 Old Comment=330R1W New Comment=330R 1W
+Change Component Comment : Designator=R1 Old Comment=470R New Comment=470R 1/8W
+Added Component: Designator=LED1(LED-5-RED)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED-5-RED)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R4-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R12-1
+Added Net: Name=NetLED2_1
+Added Member To Class: ClassName=schematic Member=Component LED1 LED
+Added Member To Class: ClassName=schematic Member=Component LED2 LED
+Added Room: Name=schematic
